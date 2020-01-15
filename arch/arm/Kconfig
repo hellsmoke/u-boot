@@ -1144,6 +1144,10 @@ config ARCH_ASPEED
 	select OF_CONTROL
 	select DM
 
+config TARGET_HAMILTON_CONNECTIVITY_BOARD
+    bool "Support Hamilton Connectivity Board"
+	select CPU_V7
+
 endchoice
 
 source "arch/arm/mach-aspeed/Kconfig"
@@ -1264,6 +1268,7 @@ source "board/freescale/vf610twr/Kconfig"
 source "board/grinn/chiliboard/Kconfig"
 source "board/gumstix/pepper/Kconfig"
 source "board/h2200/Kconfig"
+source "board/hamilton/hamilton_connectivity_board/Kconfig"
 source "board/hisilicon/hikey/Kconfig"
 source "board/imx31_phycore/Kconfig"
 source "board/isee/igep0033/Kconfig"

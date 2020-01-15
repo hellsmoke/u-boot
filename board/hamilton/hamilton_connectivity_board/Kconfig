@@ -1,0 +1,15 @@
+if TARGET_HAMILTON_CONNECTIVITY_BOARD
+
+config SYS_BOARD
+       default "hamilton_connectivity_board"
+
+config SYS_VENDOR
+       default "hamilton"
+
+config SYS_SOC
+       default "ccimx6ulsbc"
+
+config SYS_CONFIG_NAME
+       default "hamilton_connectivity_board"
+
+endif

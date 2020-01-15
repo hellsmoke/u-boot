@@ -1,0 +1,6 @@
+HAMILTON_CONNECTIVITY_BOARD BOARD
+M:    Michael Eicher <m.eicher@solcept.ch>
+S:    Maintained
+F:    board/hamilton/hamilton_connectiviy_board/
+F:    include/configs/hamilton_connectivity_board.h
+F:    configs/hamilton_connectivity_board_defconfig
